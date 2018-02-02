@@ -1,0 +1,12 @@
+{
+  "cost_center" : {
+    "api.host" : "qa.host",
+    "api.port" : "8084",
+    "api.path" : "/cost_center"
+  },
+  "company_code" : {
+    "api.host" : "qa.host",
+    "api.port" : "8084",
+    "api.path" : "/company_code"
+  }
+}
