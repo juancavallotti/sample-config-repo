@@ -4,14 +4,14 @@ global: false
 environments:
   dev:
     documentsPath: devDocs
-    parents:
+    imports:
       # environment and version optional
       - application: parent
         version: v1
         environment: dev 
   #rest of the environments have standard conventional settings.
   #but we can have a global parents setting
-parents:
+imports:
   - application: global
     version: v1 #version is optional too!
   #and we leave empty the environment to match the environment, if present.
